@@ -41,6 +41,7 @@
         
         <!--responsive.css-->
         <link rel="stylesheet" href="assets/css/responsive.css">
+
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -82,8 +83,8 @@
 			                    <li class="smooth-menu"><a href="#education">educación</a></li>
 			                    <li class="smooth-menu"><a href="#skills">habilidades</a></li>
 			                    <li class="smooth-menu"><a href="#portfolio">portafolio</a></li>
-			                    <li class="smooth-menu"><a href="#">blog</a></li>
-			                    <li class="smooth-menu"><a href="#profiles">contacto</a></li>
+			                    <!--<li class="smooth-menu"><a href="#">blog</a></li>-->
+			                    <li class="smooth-menu"><a href="#contact">contacto</a></li>
 			                </ul><!--/.nav -->
 			            </div><!-- /.navbar-collapse -->
 			        </div><!--/.container-->
@@ -102,7 +103,7 @@
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<div class="header-text">
-							<h2>¡Hola!<span>,</span>Soy<br>Yazmin<br>Pedraza<span>.</span></h2>
+							<h2><span>¡</span>Hola<span>!</span> Soy<br>Yazmin<br>Pedraza</h2>
 							<p>Junior Web Developer</p>
 						</div><!--/.header-text-->
 					</div><!--/.col-->
@@ -165,7 +166,7 @@
 								<div class="timeline">
 									<div class="timeline-content">
 										<h4 class="title">
-											Megstar
+											Megstar Systems
 										</h4>
 										<h5>Ciudad de México</h5>
 										<p class="description">
@@ -420,104 +421,77 @@
 		<!--portfolio end -->
 
 		<!--contact start -->
-		<section id="profiles" class="profiles">
-			<div class="profiles-details">
-				<div class="section-heading text-center">
-					<h2>Contacto</h2>
-				</div>
-				<div class="container">
-					<div class="profiles-content">
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-facebook-logo-button"></i></a>
-										<div class="profile-icon-name">facebook</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-facebook-logo-button"></i></a>
-											<div class="profile-icon-name">facebook</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-twitter-logo-button"></i></a>
-										<div class="profile-icon-name">twitter</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-twitter-logo-button"></i></a>
-											<div class="profile-icon-name">twitter</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="single-profile profile-no-border">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-linkedin-logo-button"></i></a>
-										<div class="profile-icon-name">linkedin</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-linkedin-logo-button"></i></a>
-											<div class="profile-icon-name">linkedin</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-github-logo"></i></a>
-										<div class="profile-icon-name">github</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-github-logo"></i></a>
-											<div class="profile-icon-name">github</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-github-logo"></i></a>
-										<div class="profile-icon-name">github</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-github-logo"></i></a>
-											<div class="profile-icon-name">github</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="single-profile profile-no-border">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-github-logo"></i></a>
-										<div class="profile-icon-name">github</div>
-									</div>
-									<div class="single-profile-overlay ">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-github-logo"></i></a>
-											<div class="profile-icon-name">github</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+		<section id="contact" class="contact">
+			<div class="section-heading text-center">
+				<h2>contacto</h2>
 			</div>
+			<div class="container">
+				<div class="contact-content">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-5 col-sm-6">
+							<div class="single-contact-box">
+								<div class="contact-form">
+									<form name="contact-form" id="cform" method="post" action="assets/php/send_email.php">
+										<div class="row">
+											<div class="col-sm-6 col-xs-12">
+												<div class="form-group">
+												  <input type="text" class="form-control" id="name" placeholder="Nombre*" name="name">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+											<div class="col-sm-6 col-xs-12">
+												<div class="form-group">
+													<input type="email" class="form-control" id="email" placeholder="Correo*" name="email">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<textarea class="form-control" rows="8" id="comment" placeholder="Mensaje" name="message" ></textarea>
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="single-contact-btn">
+													<input class="contact-btn" type="submit" name="Submit" value="Enviar"></input>
+												</div><!--/.single-single-contact-btn-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+									</form><!--/form-->
+								</div><!--/.contact-form-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+						<div class="col-md-offset-1 col-md-5 col-sm-6">
+							<div class="single-contact-box">
+								<div class="contact-adress">
+									<div class="contact-add-head">
+										<h3>Yazmin Pedraza</h3>
+										<p>Junior web developer</p>
+									</div>
+									<div class="contact-add-info">
+										<div class="single-contact-add-info">
+											<h3>email</h3>
+											<p>yazminpedraza.it@gmail.com</p>
+										</div>
+									</div>
+								</div><!--/.contact-adress-->
+								<div class="hm-foot-icon">
+									<ul>
+										<li><a href="http://www.linkedin.com/in/yazmin-pedraza" target="_blank"><i class="fa fa-linkedin"></i></a></li><!--/li-->
+										<li><a href="http://github.com/YazminPedraza" target="_blank"><i class="fa fa-github"></i></a></li><!--/li-->
+										<li><a href="http://www.facebook.com/yazinect" target="_blank"><i class="fa fa-facebook"></i></a></li><!--/li-->
+										<li><a href="http://twitter.com/yazinect" target="_blank"><i class="fa fa-twitter"></i></a></li><!--/li-->
+										<li><a href="http://www.instagram.com/yazinect" target="_blank"><i class="fa fa-instagram"></i></a></li><!--/li-->
+									</ul><!--/ul-->
+								</div><!--/.hm-foot-icon-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.contact-content-->
+			</div><!--/.container-->
 
-		</section><!--/.profiles-->
+		</section><!--/.contact-->
 		<!--contact end -->
 
 		<!--footer-copyright start-->
