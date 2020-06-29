@@ -1,402 +1,930 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="es">
+  <head>
+    <!-- meta data -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<head>
-	<!-- meta data -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!--font-family-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+      rel="stylesheet"
+    />
 
-	<!--font-family-->
-	<link
-		href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
-		rel="stylesheet">
+    <!-- title of site -->
+    <title>Yazmin Pedraza</title>
 
-	<!-- title of site -->
-	<title>Yazmin Pedraza</title>
+    <!-- For favicon png -->
+    <link
+      rel="shortcut icon"
+      type="image/icon"
+      href="assets/logo/favicon.png"
+    />
 
-	<!-- For favicon png -->
-	<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 
-	<!--font-awesome.min.css-->
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!--flat icon css-->
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
 
-	<!--flat icon css-->
-	<link rel="stylesheet" href="assets/css/flaticon.css">
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css" />
 
-	<!--animate.css-->
-	<link rel="stylesheet" href="assets/css/animate.css">
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
 
-	<!--owl.carousel.css-->
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-	<!--bootstrap.min.css-->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="assets/css/bootsnav.css" />
 
-	<!-- bootsnav -->
-	<link rel="stylesheet" href="assets/css/bootsnav.css">
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-	<!--style.css-->
-	<link rel="stylesheet" href="assets/css/style.css">
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
 
-	<!--responsive.css-->
-	<link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
-	<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <!-- top-area Start -->
+    <header class="top-area">
+      <div class="header-area">
+        <!-- Start Navigation -->
+        <nav
+          class="navbar navbar-default bootsnav navbar-fixed dark no-background"
+        >
+          <div class="container">
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#navbar-menu"
+              >
+                <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="index.html">Yazmin Pedraza</a>
+            </div>
+            <!--/.navbar-header-->
+            <!-- End Header Navigation -->
 
-</head>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse menu-ui-design"
+              id="navbar-menu"
+            >
+              <ul
+                class="nav navbar-nav navbar-right"
+                data-in="fadeInDown"
+                data-out="fadeOutUp"
+              >
+                <li class="smooth-menu active"></li>
+                <li class="smooth-menu"><a href="#about">About me</a></li>
+                <li class="smooth-menu"><a href="#education">education</a></li>
+                <li class="smooth-menu"><a href="#skills">skills</a></li>
+                <li class="smooth-menu">
+                  <a href="#experience">experience</a>
+                </li>
+                <li class="smooth-menu"><a href="#projects">Portfolio</a></li>
+                <li class="smooth-menu"><a href="#contact">Contact</a></li>
+                <li class="smooth-menu">
+                  <a href="assets/download/browney.txt" download="">Resume</a>
+                </li>
+              </ul>
+              <!--/.nav -->
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!--/.container-->
+        </nav>
+        <!--/nav-->
+        <!-- End Navigation -->
+      </div>
+      <!--/.header-area-->
 
-<body>
-	<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+      <div class="clearfix"></div>
+    </header>
+    <!-- /.top-area-->
+    <!-- top-area End -->
 
-	<!-- top-area Start -->
-	<header class="top-area">
-		<div class="header-area">
-			<!-- Start Navigation -->
-			<nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+    <!--welcome-hero start -->
+    <section id="welcome-hero" class="welcome-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="header-text">
+              <div class="welcome-hero-profile-image">
+                <img
+                  src="assets/images/about/my_photo.jpg"
+                  alt="profile_image"
+                />
+              </div>
+              <h2>Hi<span> , </span>I am Yazmin Pedraza</h2>
+              <p>Front-end Developer<span>.</span></p>
+              <li class="smooth-menu">
+                <a
+                  href="#about"
+                  class="animated fadeInDown"
+                  style="opacity: 0;"
+                  data-in="fadeInDown"
+                  data-out="fadeOutUp"
+                  >MORE ON ME</a
+                >
+              </li>
+            </div>
+            <!--/.header-text-->
+          </div>
+          <!--/.col-->
+        </div>
+        <!-- /.row-->
+      </div>
+      <!-- /.container-->
+    </section>
+    <!--/.welcome-hero-->
+    <!--welcome-hero end -->
 
-				<div class="container">
+    <!--about start -->
+    <section id="about" class="about">
+      <div class="section-heading text-center">
+        <h2>About me</h2>
+      </div>
+      <div class="container">
+        <div class="about-content">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="single-about-txt">
+                <h3>
+                  As a front-end developer, I have worked with javascript for
+                  two years and I have developed projects with jQuery, AJAX,
+                  Bootstrap, React.js and Sass.
+                </h3>
+                <p>
+                  I am passionate about UI design and software development.
+                  <br />
+                  I enjoy continuous learning and sharing my knowledge with
+                  others, going to techie talks and workshops.
+                </p>
+                <a
+                  href="assets/download/browney.txt"
+                  download=""
+                  class="animated fadeInDown text-center"
+                  style="opacity: 0;"
+                  >Download resume</a
+                >
+              </div>
+            </div>
 
-					<!-- Start Header Navigation -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-							<i class="fa fa-bars"></i>
-						</button>
-						<a class="navbar-brand" href="index.html">Yazmin Pedraza</a>
-					</div>
-					<!--/.navbar-header-->
-					<!-- End Header Navigation -->
+            <div class="col-sm-offset-1 col-sm-5">
+              <div class="single-about-img">
+                <img
+                  src="assets/images/about/my_photo.jpg"
+                  alt="profile_image"
+                />
+                <div class="about-list-icon">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/yazinect/">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <!-- / li -->
+                    <li>
+                      <a href="https://twitter.com/yazinect">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <!-- / li -->
+                    <li>
+                      <a href="https://www.linkedin.com/in/yazmin-pedraza/">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <!-- / li -->
+                    <li>
+                      <a href="https://www.instagram.com/yazinect/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <!-- / li -->
+                  </ul>
+                  <!-- / ul -->
+                </div>
+                <!-- /.about-list-icon -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/.about-->
+    <!--about end -->
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-							<li class="smooth-menu active"></li>
-							<li class="smooth-menu"><a href="#about">Acerca de mí</a></li>
-							<li class="smooth-menu"><a href="#projects">Proyectos</a></li>
-							<li class="smooth-menu"><a href="#certificates">Certificados</a></li>
-							<li class="smooth-menu"><a href="#contact">Contacto</a></li>
-						</ul>
-						<!--/.nav -->
-					</div><!-- /.navbar-collapse -->
-				</div>
-				<!--/.container-->
-			</nav>
-			<!--/nav-->
-			<!-- End Navigation -->
-		</div>
-		<!--/.header-area-->
+    <!--education start -->
+    <section id="education" class="education">
+      <div class="section-heading text-center">
+        <h2>education</h2>
+      </div>
+      <div class="container">
+        <div class="education-horizontal-timeline justify-content-center">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2014 - 2018</h2>
+                  <h3>
+                    bachelor <span>of </span> science in information technology
+                  </h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span class="single-timeline-horizontal"></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">
+                      instituto politécnico nacional
+                    </h4>
+                    <h5 class="">mexico city, mexico</h5>
+                    <p class="description">
+                      I had interdisciplinary learning, <br />since the software
+                      development process to the business alignment with
+                      technology and additionally, I took specialized subjects
+                      in change management.
+                    </p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/.education-->
+    <!--education end -->
 
-		<div class="clearfix"></div>
+    <!--courses start -->
+    <section id="courses" class="education">
+      <div class="section-heading text-center">
+        <h2>courses</h2>
+      </div>
+      <div class="container">
+        <div class="education-horizontal-timeline">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>Present</h2>
+                  <h3>Front-end <span>with</span> React.js</h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span class="single-timeline-horizontal"></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">
+                      Platzi & Udemy
+                    </h4>
+                    <h5>Online course</h5>
+                    <p class="description">
+                      Currently, I am doing javascript, react, and redux courses
+                      to achieve an advanced domain in these technologies.
+                    </p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>January 2019</h2>
+                  <h3>Scrum Fundamentals Certified</h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span class="single-timeline-horizontal"></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">
+                      Scrum Study
+                    </h4>
+                    <h5>Online course</h5>
+                    <p class="description">
+                      I learned about agile philosophy, its principles, and why
+                      Scrum is a framework for value continuous delivery.
+                    </p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2015 - 2018</h2>
+                  <h3>English <span>course</span></h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span
+                    class="single-timeline-horizontal spacial-horizontal-line"
+                  ></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">
+                      Centro de Lenguas Extranjeras UPIICSA
+                    </h4>
+                    <h5>mexico city, mexico</h5>
+                    <p class="description">
+                      I reached the B2 level (Upper-intermediate) according to
+                      the Common European Framework of Reference for Languages
+                      (CEF or CEFR).
+                    </p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/.education-->
+    <!--education end -->
 
-	</header><!-- /.top-area-->
-	<!-- top-area End -->
+    <!--skills start -->
+    <section id="skills" class="skills">
+      <div class="skill-content">
+        <div class="section-heading text-center">
+          <h2>skills</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="single-skill-content">
+                <div class="barWrapper">
+                  <span class="progressText">HTML 5</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="90"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>90%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">CSS 3</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="70"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>70%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">Sass</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>80%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">JavaScript</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="70"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>70%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="single-skill-content">
+                <div class="barWrapper">
+                  <span class="progressText">React.js</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>80%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">Redux</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="50"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>50%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">npm</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>80%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">git</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>80%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.skill-content-->
+    </section>
+    <!--/.skills-->
+    <!--skills end -->
 
-	<!--welcome-hero start -->
-	<section id="welcome-hero" class="welcome-hero">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="header-text">
-						<h2><span>¡</span>Hola<span>!</span> Soy<br>Yazmin<br>Pedraza</h2>
-						<p>Front-end Developer</p>
-					</div>
-					<!--/.header-text-->
-				</div>
-				<!--/.col-->
-			</div><!-- /.row-->
-		</div><!-- /.container-->
+    <!--experience start -->
+    <section id="experience" class="experience">
+      <div class="section-heading text-center">
+        <h2>experience</h2>
+      </div>
+      <div class="container">
+        <div class="experience-content">
+          <div class="main-timeline">
+            <ul>
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>Sep 2019 - Present</h2>
+                        <h3>Front-end developer</h3>
+                      </div>
+                      <!--/.experience-time-->
+                    </div>
+                    <!--/.col-->
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span
+                              ><i class="fa fa-circle" aria-hidden="true"></i
+                            ></span>
+                            TGC Internet Group
+                          </h4>
+                          <h5>mexico city, mexico</h5>
+                          <p class="description">
+														I am taking part in the front-end development of 
+														<a class="description" href="https://contactaabogado.com/" target="_blank">contactaabogado.com</a><br/> 
+														I am working with React.js, Sass, Material-UI, Redux,<br/> React Router, moment.js, and <br/>react-google-charts.<br/>
+														About the workflow:<br/>
+														- Adaptive and responsive web design.<br/>
+														- Debbuging<br/>
+														- Agile development
+                          </p>
+                        </div>
+                        <!--/.timeline-content-->
+                      </div>
+                      <!--/.timeline-->
+                    </div>
+                    <!--/.col-->
+                  </div>
+                </div>
+                <!--/.single-timeline-box-->
+              </li>
 
-	</section>
-	<!--/.welcome-hero-->
-	<!--welcome-hero end -->
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row">
+                    <div
+                      class="col-md-offset-1 col-md-5 experience-time-responsive"
+                    >
+                      <div class="experience-time">
+                        <h2>
+                          <span
+                            ><i class="fa fa-circle" aria-hidden="true"></i
+                          ></span>
+                          Feb - Sep 2019
+                        </h2>
+                        <h3>IT Trainee</h3>
+                      </div>
+                      <!--/.experience-time-->
+                    </div>
+                    <!--/.col-->
+                    <div class="col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content text-right">
+                          <h4 class="title">
+                            Tata Consultancy Services
+                          </h4>
+                          <h5>mexico city, Mexico</h5>
+                          <p class="description">
+                            Training on Ab Initio (ETL tool), Agile and Unix.<br />
+                            Participation in Python, JavaScript and data science
+                            courses, taken on Fresco Play (TCS training app).
+                          </p>
+                        </div>
+                        <!--/.timeline-content-->
+                      </div>
+                      <!--/.timeline-->
+                    </div>
+                    <!--/.col-->
+                    <div class="col-md-offset-1 col-md-5 experience-time-main">
+                      <div class="experience-time">
+                        <h2>
+                          <span
+                            ><i class="fa fa-circle" aria-hidden="true"></i
+                          ></span>
+                          Feb - Sep 2019
+                        </h2>
+                        <h3>IT Trainee</h3>
+                      </div>
+                      <!--/.experience-time-->
+                    </div>
+                    <!--/.col-->
+                  </div>
+                </div>
+                <!--/.single-timeline-box-->
+              </li>
 
-	<!--about start -->
-	<section id="about" class="about">
-		<div class="section-heading text-center">
-			<h2>Acerca de mí</h2>
-		</div>
-		<div class="container">
-			<div class="about-content">
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="single-about-txt">
-							<h3>
-								Soy front-end developer
-							</h3>
-							<p>
-								Desarrollo websites usando herramientas y tecnologías como HTML, CSS, Bootstrap,
-								WordPress y JavaScript.<br>
-								Próximamente estaré agregando algún preprocesador de CSS y un framework de JS a mi
-								stack.
-							</p>
-							<p>
-								Me apasionan temas como arquitectura y desarrollo de software, gestión de proyectos,
-								metodologías ágiles, gestión del cambio y transformación digital.<br>
-								Disfruto cada día aprendiendo más sobre tecnología.
-							</p>
-						</div>
-					</div>
-					<div class="col-sm-offset-1 col-sm-5">
-						<div class="single-about-img">
-							<img src="assets/images/about/agiles_2018.jpg" alt="profile_image">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--/.about-->
-	<!--about end -->
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>Nov 2017 - Jun 2018</h2>
+                        <h3>Web Development intern</h3>
+                      </div>
+                      <!--/.experience-time-->
+                    </div>
+                    <!--/.col-->
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span
+                              ><i class="fa fa-circle" aria-hidden="true"></i
+                            ></span>
+                            Ubictrans
+                          </h4>
+                          <h5>mexico city, mexico</h5>
+                          <p class="description">
+														I took part in the development of apps that used<br/> the Google Maps API. 
+														<br/>
+														Front-end and back-end programming of forms using JavaScript, JQuery, AJAX and PHP.
+														<br/>
+														Website optimization using PageSpeed Insights.
+                          </p>
+                        </div>
+                        <!--/.timeline-content-->
+                      </div>
+                      <!--/.timeline-->
+                    </div>
+                    <!--/.col-->
+                  </div>
+                </div>
+                <!--/.single-timeline-box-->
+              </li>
+            </ul>
+          </div>
+          <!--.main-timeline-->
+        </div>
+        <!--.experience-content-->
+      </div>
+    </section>
+    <!--/.experience-->
+    <!--experience end -->
 
-	<!--portfolio start -->
-	<section id="projects" class="portfolio">
-		<div class="portfolio-details">
-			<div class="section-heading text-center">
-				<h2>Proyectos</h2>
-			</div>
-			<div class="container">
-				<div class="portfolio-content">
-					<div class="isotope">
-						<div class="row">
+    <!--portfolio start -->
+    <section id="projects" class="portfolio">
+      <div class="portfolio-details">
+        <div class="section-heading text-center">
+          <h2>Portfolio</h2>
+        </div>
+        <div class="container">
+          <div class="portfolio-content">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="card portfolio-card">
+										<div class="card-img-top">
+											<img
+                      src="assets/images/portfolio/cientifico.png"
+                      alt="Card image cap"
+                    />
 
-							<div class="col-sm-4">
-								<div class="item">
-									<img src="assets/images/portfolio/logo_sosi.png" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a href="https://youtu.be/PqDNBmw-Gdw">
-											Proyecto SOSI
-										</a>
-									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
-							</div><!-- /.col -->
-
-							<div class="col-sm-4">
-								<div class="item">
-									<img src="assets/images/portfolio/portfolio_platzi.png" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a href="https://yazminpedraza.github.io/portfolio_platzi/">
-											Portafolio Platzi
-										</a>
-									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
-							</div><!-- /.col -->
-
-							<div class="col-sm-4">
-								<div class="item">
-									<img src="assets/images/portfolio/platziconf.png" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a href="https://yazminpedraza.github.io/platziconf_hawaii/">
-											PlatziConf Hawaii
-										</a>
-									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
-							</div><!-- /.col -->
-						</div><!-- /.row -->
-					</div>
-					<!--/.isotope-->
-				</div>
-				<!--/.gallery-content-->
-			</div>
-			<!--/.container-->
-		</div>
-		<!--/.portfolio-details-->
-
-	</section>
-	<!--/.portfolio-->
-	<!--portfolio end -->
-
-	<!--portfolio start -->
-	<section id="certificates" class="portfolio">
-		<div class="portfolio-details">
-			<div class="section-heading text-center">
-				<h2>Certificados</h2>
-			</div>
-			<div class="container">
-				<div class="portfolio-content">
-					<div class="isotope">
-						<div class="row">
-
-							<div class="col-sm-4">
-								<div class="item">
-									<img src="assets/images/portfolio/pm.png" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a
-											href="https://platzi.com/@Yazinect/carrera/82-gestion-proyectos/diploma/detalle/">
-											Curso de Gestión de Proyectos
-										</a>
-									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
-							</div><!-- /.col -->
-
-							<div class="col-sm-4">
-								<div class="item">
-									<img src="assets/images/portfolio/fun_js.png" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a
-											href="https://platzi.com/@Yazinect/carrera/82-gestion-proyectos/diploma/detalle/">
-											Curso de JavaScript
-										</a>
-									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
-							</div><!-- /.col -->
-
-							<div class="col-sm-4">
-								<div class="item">
-									<img src="assets/images/portfolio/SFC.jpg" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a
-											href="http://81cd1176253f3f59d435-ac22991740ab4ff17e21daf2ed577041.r77.cf1.rackcdn.com/Certificates/ScrumFundamentalsCertified-YazminPedraza-677781.pdf">
-											SCRUM Fundamentals Certified
-										</a>
-									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
-							</div><!-- /.col -->
-						</div><!-- /.row -->
-					</div>
-					<!--/.isotope-->
-				</div>
-				<!--/.gallery-content-->
-			</div>
-			<!--/.container-->
-		</div>
-		<!--/.portfolio-details-->
-
-	</section>
-	<!--/.portfolio-->
-	<!--portfolio end -->
-
-	<!--contact start -->
-	<section id="contact" class="contact">
-		<div class="section-heading text-center">
-			<h2>contacto</h2>
-		</div>
-		<div class="container" id="contact_container">
-			<div class="contact-content">
-				<div class="row">
-					<div class="col-md-offset-1">
-						<div class="single-contact-box">
-							<div class="contact-adress">
-								<div class="contact-add-head">
-									<h3>Yazmin Pedraza</h3>
-									<p>Front-end Developer</p>
+										</div>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">100tifico</h5>
+                      <p class="card-text">
+												Single page application that lists characters from Rick and Morty's API and allows you to navigate to the details of every character.
+											</p>
+											<p class="card-text">
+                        Made with JavaScript Vanilla.
+											</p>
+											<a href="https://yazminpedraza.github.io/cientifico/" class="card-link">Demo</a>
+                    </div>
+                  </div>
 								</div>
-								<div class="contact-add-info">
-									<div class="single-contact-add-info">
-										<h3>email</h3>
-										<p>yazminpedraza.it@gmail.com</p>
-									</div>
-								</div>
-							</div>
-							<!--/.contact-adress-->
-							<div class="hm-foot-icon">
-								<ul>
-									<li><a href="https://www.linkedin.com/in/yazmin-pedraza" target="_blank"><i
-												class="fa fa-linkedin"></i></a></li>
-									<!--/li-->
-									<li><a href="https://github.com/YazminPedraza" target="_blank"><i
-												class="fa fa-github"></i></a></li>
-									<!--/li-->
-									<li><a href="https://www.facebook.com/yazinect" target="_blank"><i
-												class="fa fa-facebook"></i></a></li>
-									<!--/li-->
-									<li><a href="https://twitter.com/yazinect" target="_blank"><i
-												class="fa fa-twitter"></i></a></li>
-									<!--/li-->
-									<li><a href="https://www.instagram.com/yazinect" target="_blank"><i
-												class="fa fa-instagram"></i></a></li>
-									<!--/li-->
-								</ul>
-								<!--/ul-->
-							</div>
-							<!--/.hm-foot-icon-->
-						</div>
-						<!--/.single-contact-box-->
-					</div>
-					<!--/.col-->
-				</div>
-				<!--/.row-->
-			</div>
-			<!--/.contact-content-->
-		</div>
-		<!--/.container-->
+								
+                <div class="col-sm-4">
+                 
+										<div class="card">
+											<img
+												class="card-img-top"
+												src="assets/images/portfolio/portfolio_platzi.png"
+												alt="portfolio image"
+											/>
+											
+											<div class="card-body">
+												<h5 class="card-title">Proyecto SOSI</h5>
+												<p class="card-text">
+													Some quick example text to build on the card title and
+													make up the bulk of the card's content.
+												</p>
+												<a href="https://yazminpedraza.github.io/portfolio_platzi/" class="card-link">Demo</a>
+											</div>
+										</div>
+                </div>
+                <!-- /.col -->
 
-	</section>
-	<!--/.contact-->
-	<!--contact end -->
+                <div class="col-sm-4">
+									<div class="card">
+										<img
+											class="card-img-top"
+											src="assets/images/portfolio/platziconf.png"
+											alt="portfolio image"
+										/>
+										
+										<div class="card-body">
+											<h5 class="card-title">Proyecto SOSI</h5>
+											<p class="card-text">
+												Some quick example text to build on the card title and
+												make up the bulk of the card's content.
+											</p>
+											<a href="https://yazminpedraza.github.io/platziconf_hawaii/" class="card-link">Demo</a>
+										</div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.col -->
+              </div>
+							<!-- /.row -->
+							
+          </div>
+          <!--/.gallery-content-->
+        </div>
+        <!--/.container-->
+      </div>
+      <!--/.portfolio-details-->
+    </section>
+    <!--/.portfolio-->
+    <!--portfolio end -->
 
-	<!--footer-copyright start-->
-	<footer id="footer-copyright" class="footer-copyright">
-		<div class="container">
-			<div class="hm-footer-copyright text-center">
-				<p>
-					&copy; copyright Yazmin Pedraza. design and developed by <a
-						href="https://www.themesine.com/">themesine</a>
-				</p>
-				<!--/p-->
-			</div>
-			<!--/.text-center-->
-		</div>
-		<!--/.container-->
+    <!--contact start -->
+    <section id="contact" class="contact">
+      <div class="section-heading text-center">
+        <h2>contact</h2>
+      </div>
+      <div class="container" id="contact_container">
+        <div class="contact-content">
+          <div class="row">
+            <div class="col-md-offset-1">
+              <div class="single-contact-box">
+                <div class="contact-adress">
+                  <div class="contact-add-head">
+                    <h3>Yazmin Pedraza</h3>
+                    <p>Front-end Developer</p>
+                  </div>
+                  <div class="contact-add-info">
+                    <div class="single-contact-add-info">
+                      <h3>email</h3>
+                      <p>yazminpedraza.it@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/.contact-adress-->
+                <div class="hm-foot-icon">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/yazmin-pedraza"
+                        target="_blank"
+                        ><i class="fa fa-linkedin"></i
+                      ></a>
+                    </li>
+                    <!--/li-->
+                    <li>
+                      <a href="https://github.com/YazminPedraza" target="_blank"
+                        ><i class="fa fa-github"></i
+                      ></a>
+                    </li>
+                    <!--/li-->
+                    <li>
+                      <a
+                        href="https://www.facebook.com/yazinect"
+                        target="_blank"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <!--/li-->
+                    <li>
+                      <a href="https://twitter.com/yazinect" target="_blank"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                    </li>
+                    <!--/li-->
+                    <li>
+                      <a
+                        href="https://www.instagram.com/yazinect"
+                        target="_blank"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                    </li>
+                    <!--/li-->
+                  </ul>
+                  <!--/ul-->
+                </div>
+                <!--/.hm-foot-icon-->
+              </div>
+              <!--/.single-contact-box-->
+            </div>
+            <!--/.col-->
+          </div>
+          <!--/.row-->
+        </div>
+        <!--/.contact-content-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/.contact-->
+    <!--contact end -->
 
-		<div id="scroll-Top">
-			<div class="return-to-top">
-				<i class="fa fa-angle-up " id="scroll-top"></i>
-			</div>
+    <!--footer-copyright start-->
+    <footer id="footer-copyright" class="footer-copyright">
+      <div class="container">
+        <div class="hm-footer-copyright text-center">
+          <p>
+            &copy; copyright Yazmin Pedraza. design and developed by
+						<a href="https://www.themesine.com/">themesine</a>.<br/>Customized by Yazmin Pedraza.
+          </p>
+          <!--/p-->
+        </div>
+        <!--/.text-center-->
+      </div>
+      <!--/.container-->
 
-		</div>
-		<!--/.scroll-Top-->
+      <div id="scroll-Top">
+        <div class="return-to-top">
+          <i class="fa fa-angle-up" id="scroll-top"></i>
+        </div>
+      </div>
+      <!--/.scroll-Top-->
+    </footer>
+    <!--/.footer-copyright-->
+    <!--footer-copyright end-->
 
-	</footer>
-	<!--/.footer-copyright-->
-	<!--footer-copyright end-->
+    <!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-	<!-- Include all js compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/jquery.js"></script>
 
-	<script src="assets/js/jquery.js"></script>
+    <!--modernizr.min.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-	<!--modernizr.min.js-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!--bootstrap.min.js-->
+    <script src="assets/js/bootstrap.min.js"></script>
 
-	<!--bootstrap.min.js-->
-	<script src="assets/js/bootstrap.min.js"></script>
+    <!-- bootsnav js -->
+    <script src="assets/js/bootsnav.js"></script>
 
-	<!-- bootsnav js -->
-	<script src="assets/js/bootsnav.js"></script>
+    <!-- jquery.sticky.js -->
+    <script src="assets/js/jquery.sticky.js"></script>
 
-	<!-- jquery.sticky.js -->
-	<script src="assets/js/jquery.sticky.js"></script>
+    <!-- for progress bar start-->
 
-	<!-- for progress bar start-->
+    <!-- progressbar js -->
+    <script src="assets/js/progressbar.js"></script>
 
-	<!-- progressbar js -->
-	<script src="assets/js/progressbar.js"></script>
+    <!-- appear js -->
+    <script src="assets/js/jquery.appear.js"></script>
 
-	<!-- appear js -->
-	<script src="assets/js/jquery.appear.js"></script>
+    <!-- for progress bar end -->
 
-	<!-- for progress bar end -->
+    <!--owl.carousel.js-->
+    <script src="assets/js/owl.carousel.min.js"></script>
 
-	<!--owl.carousel.js-->
-	<script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-
-	<!--Custom JS-->
-	<script src="assets/js/custom.js"></script>
-
-</body>
-
+    <!--Custom JS-->
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>
+
+I'm a fan of Star Trek movies and recently Star Wars.
+Sometimes, on weekends I go with my boyfriend to parks or tourist places in Mexico City.  
+I enjoy watching comedy series, currently, I am watching Modern Family to raise my vocabulary.
+My favorite videogames are the sims, Mario party, Mario kart, actually, almost anyone racing game.
+As a passionate developer, I spend most of my free time learning new things or practicing what I have learned.
