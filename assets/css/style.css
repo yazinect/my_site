@@ -257,7 +257,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f92cd4;}
     -o-transition: 0.3s linear;
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+.header-text a:hover{text-decoration: none;box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
 /*.header-text-area*/
 
 /*-------------------------------------
@@ -368,7 +368,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f92cd4;}
     transition: 0.3s linear;
     margin: 20px 0 60px;
 }
-.single-about-txt a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+.single-about-txt a:hover{text-decoration: none;box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
 
 /*-------------------------------------
         5.  Education
@@ -655,6 +655,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     /* border: 1px solid red; */
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
     margin-bottom: 32px;
+    min-height: 465px;
 }
 .card-shadow{
     box-shadow: 5px 20px rgba(14, 25, 80, 0.07);
@@ -670,13 +671,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display: inline-block;
     overflow: hidden;
     position: relative;
-    
+    width: 100%;
 }
 .card-img-top img{    
 }
 
 .card-body {
     padding: 20px;
+    /* height: 100%; */
 }
 .card-title {
    margin-bottom: 12px;

@@ -70,12 +70,15 @@
 }/*max-width:640px*/
 
 @media screen and (max-width: 580px){
-
+    .header-text h2 { font-size: 28px}
+    .header-text p {
+    	font-size: 18px; 
+    	margin-bottom: 36px;
+    };
 }/*max-width:580px*/
 
 @media screen and (max-width: 540px){
-	.subscribe-title h2 {font-size: 24px;}
-
+	.subscribe-title h2 {font-size: 20px;}
 }/*max-width:540px*/
 
 @media screen and (max-width: 480px){
