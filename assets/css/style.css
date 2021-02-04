@@ -673,8 +673,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     position: relative;
     width: 100%;
 }
-.card-img-top img{    
-}
 
 .card-body {
     padding: 20px;
@@ -686,6 +684,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .card-text {
     margin-bottom: 16px;
+}
+.card-links a:last-child {
+    margin-left: 18px;
 }
 .card-link {
     color: #0ec2b9;
